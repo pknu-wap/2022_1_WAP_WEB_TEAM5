@@ -1,0 +1,34 @@
+.postDetail {
+    margin:auto;
+    margin-top: 30px;
+    color:black;
+    width: 500px;
+    height: 650px;
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-radius: 5px;
+}
+
+.postDetail .commentTitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+
+.postDetail .postInfo div{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.postDetail input{
+    border-style: none;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.postDetail button{
+    border-style: none;
+    cursor: pointer;
+    height: 23px;
+}

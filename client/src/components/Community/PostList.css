@@ -1,0 +1,28 @@
+.postPage {
+    margin-top: 70px;
+    color:black;
+    width: 70%;
+    height: 600px;
+    background-color: lightgray;
+    display:flex;
+    flex-direction: column;
+    padding:15px;
+    border-radius: 5px;
+}
+
+.postPage .listTitle{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.postPage .category{
+    height: 30px;
+    border-radius: 2px;
+    width:80px;
+    margin-left:20px;
+    border-style: none;
+}
+
+.postPage .postList{
+    overflow-y: scroll;
+}
